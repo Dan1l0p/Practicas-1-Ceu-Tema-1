@@ -4,11 +4,12 @@
 
 lista_1 = ["h",'o','l','a',' ', 'm','u','n','d','o']
 lista_2 = ["h",'o','l','a',' ', 'l','u','n','a'] 
-
+listasumada = lista_1+lista_2
 lista_3 = []
 
-for values in lista_1:
-    if values in lista_2:
+for values in listasumada:
+    if values not in lista_3:
         lista_3.append(values)
-lista_3.pop(7)
+
+
 print(lista_3)
