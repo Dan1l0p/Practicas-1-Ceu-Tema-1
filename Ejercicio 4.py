@@ -3,6 +3,6 @@
 ##Para ordenar automáticamente una lista es posible utilizar el método .sort(), deberias probarlo.##
 
 tareas = ["3: Jugar", "2: Comer", "4: Estudiar", "1: Dormir"]
-tareas = tareas.sort
+tareas.sort()
 for tarea in tareas:
     print(tarea)
