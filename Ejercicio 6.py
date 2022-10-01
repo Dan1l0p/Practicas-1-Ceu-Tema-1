@@ -1,4 +1,4 @@
-def lista_parimpar(lista):
+def separar(lista):
     lista_par = []
     lista_impar = []
 
@@ -15,5 +15,8 @@ def lista_parimpar(lista):
 
 
 lista = [6, 5, 2, 1, 7]
-listaseparada = lista_parimpar(lista)
-print(lista_parimpar(lista))
+pares , impares = separar(lista)
+print(separar(lista))
+print(pares)
+print(impares)
+

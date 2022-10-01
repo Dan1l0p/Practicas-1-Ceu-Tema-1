@@ -1,4 +1,4 @@
-numero_magico = (12345679)
+numero_magico = 12345679
 
 while True:
     numero_usuario = input("Dime un número del 1 al 9. ")

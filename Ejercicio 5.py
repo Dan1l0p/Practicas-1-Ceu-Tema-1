@@ -11,3 +11,6 @@ while True:
         print("NO es posible.  ")
     else:
         break
+
+print("{:04n}".format(numero_a_descomponer))
+
